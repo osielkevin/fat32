@@ -1,4 +1,4 @@
 make: 
-	g++ -o mfs.c -o mfs
+	g++ mfs.c -o mfs
 clean:
 	mfs
