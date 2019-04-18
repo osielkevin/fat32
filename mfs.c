@@ -1,6 +1,5 @@
 /*
 Name: Kevin Lopez
-ID: 1001351570
 */
 //#define _GNU_SOURCE
 
