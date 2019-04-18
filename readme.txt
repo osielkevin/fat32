@@ -1,1 +1,2 @@
-to compile type: g++ -o mfs.c -o mfs
+Must use linux
+to compile type: g++ mfs.c -o mfs
