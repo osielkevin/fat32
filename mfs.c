@@ -313,7 +313,7 @@ int main()
         if(is_file_open == 1)
         {
         //What I'm sending as argument since code is buggy.
-            char send[101];
+            char send[255];
             char printer[12];
             strcpy(send,token[1]);
             for(i = 0; i < 16; i++)
@@ -380,7 +380,7 @@ int main()
         if(is_file_open == 1)
         {
             //What I'm sending as argument since code is buggy.
-            char send[101];
+            char send[255];
             char printer[12];
             strcpy(send,token[1]);
             for(i = 0; i < 16; i++)
@@ -474,7 +474,7 @@ int main()
         if(is_file_open == 1)
         {
             //What we compare with
-            char send[101];
+            char send[255];
             strcpy(send,token[1]);
             for(i = 0; i < 16; i++)
             {
@@ -558,8 +558,8 @@ int main()
     {
         if(is_file_open == 1)
         {
-            char send[200];
-            char og[200];
+            char send[255];
+            char og[255];
             //Pieces it up if /
             char *iterator = strtok(token[1],"/");
             //do all commands til /
